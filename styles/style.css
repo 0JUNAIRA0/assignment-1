@@ -279,10 +279,8 @@
 }
 .details-reviewer {
   display: flex;
-  /* align-self:center; */
   flex-direction: column;
-  /* align-items: center; */
-  justify-content: center;
+ justify-content: center;
   height: fit-content;
 
 }
@@ -300,6 +298,66 @@
   color: #888;
   margin: 0;
 }
+ 
+/* focus better section */
+
+.focus-section {
+  background-color: white;
+  text-align: center;
+  padding: 50px 0px;
+  max-width: 1140px;
+  margin:0 auto;
+}
+
+.focus-section h1 {
+  color: #000;
+
+  font-family: Raleway;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.focus-section p {
+  color: #666;
+  font-family: Inter;
+  font-size: 16px;
+  margin: 25px;
+  margin-bottom: 25px;
+}
+
+.free-btn {
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  background-color: #6366f1;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.free-btn:hover {
+  background-color: #059669;
+}
+
+ 
+
+.free-img img {
+  width: 100%;
+  max-width: 840px;
+  margin: 40px auto;
+  display: block;
+  border-radius: 3em;
+  overflow: hidden;
+}
+
 
 
 
