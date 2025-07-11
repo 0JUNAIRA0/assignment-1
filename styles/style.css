@@ -421,5 +421,49 @@ form button:hover {
   background-color: olive;
 }
 
+/* footer section */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3em;
+  background-color: white;
+  padding: 104px 0 103px 0;
+}
+.footer-text {
+  color: var(--Primary-Color, #4e47ff);
+  text-align: center;
+  font-family: Inter;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.footer-p {
+  margin-top: 8px;
+  color: #8987a1;
+  text-align: center;
+  width: 531px;
+  /* Paragraph */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+ul {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+}
+li {
+  color: #8987a1;
+  font-family: Inter;
+}
 
 
