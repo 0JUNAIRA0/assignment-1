@@ -49,6 +49,7 @@
     align-items: center;
     border: none;
     gap: 10px;
+    transition: background-color 0.3s ease;
 }
 .btn-primary:hover{
     background-color: olive;
@@ -146,6 +147,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  transition: background-color 0.3s ease;
 }
 
 
